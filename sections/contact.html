@@ -1,7 +1,19 @@
-<section id="contact">
+<section id="contact-section">
   <h2>Contact</h2>
   <p>Email: <a href="mailto:vikasbhatted@gmail.com">vikasbhatted@gmail.com</a></p>
   <p>Phone: <a href="tel:+919099775973">+91 9099775973</a></p>
   <p>GitHub: <a href="https://github.com/vikasbhatted">github.com/vikasbhatted</a></p>
-  <form></form>
+
+  <form id="contact-form" class="contact-form" action="#" method="post">
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" placeholder="Your Name" required />
+
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" placeholder="Your Email" required />
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
 </section>
